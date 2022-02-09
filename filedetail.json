@@ -1,13 +1,10 @@
 {
   "ovpn_file":[
-    {"id":0,"file":"
-     sentev FORWARD_COMPATIBLE 1
-   client
-dev tun
-dev-type tun
-remote gate.smartgate.at 19882 udp
-nobind
-persist-tun
+    {"id":0,"file":"client dev tun 
+     dev-type tun
+    remote gate.smartgate.at 19882 udp
+    nobind
+    persist-tun
 cipher AES-256-CBC
 auth SHA256
 verb 2
@@ -55,6 +52,6 @@ Fr6Pvoz8r0HkSZE0UNzQCok3omy8dJXYxTlB+GNiQNr4RCLj5ybRbD6zM+ak6FfF
 RU6+4h2o
 -----END CERTIFICATE-----
 </ca>
-<tls-auth>"},
+</tls-auth>"},
     {"id":1,"file":""}]
 }
